@@ -1,0 +1,7 @@
+---
+version: '3.3'
+services:
+  flyway:
+    env_file: .env
+    image: "konyfabric/kony-fabric-db:9.7.0.0_GA"
+    container_name: flyway_7339
